@@ -1,9 +1,175 @@
-ï»¿#zh_CN
-#æœ¬æ–‡ä»¶ä¸ºç®€ä½“ä¸­æ–‡è¯­è¨€é…�ç½®æ–‡ä»¶,ç¿»è¯‘è€…:crafteverywhere, moshee
-#Terrafirmcraft ç¾¤å³¦ä¼ è¯´
+#zh_CN
+#This is the Main language configuration file
+#
+#If you want to color code the text then I recommend you visit http://www.minecraftwiki.net/wiki/Formatting_codes#Color_codes
+#To create the ?symbol which is used for assigning a color to the following text press Alt + 21 on Windows. For other OSes, view the above link.
+#This file needs to be UTF-8 encoded to work with MC 1.7+
 
+#==========
+#= Blocks =
+#==========
+tile.GrainsBlock.name=稻谷
+tile.MixingBowl.Clay.name=粘土搅拌碗
+tile.MixingBowl.Ceramic.name=陶搅拌碗
+tile.CookingPot.name=陶锅
+tile.PrepTableBlock.name=餐桌
+tile.MeatsBlock.name=肉
+tile.ClayOven.name=烤炉
+tile.TableStorage.name=食物准备
 
+#=========
+#= Items =
+#=========
+item.Rutabaga.name=甘蓝
+
+item.Porkchop Raw.name=生猪肉
+item.Porkchop Cooked.name=熟猪肉
+item.Fish Raw.name=生鱼
+item.Fish Cooked.name=熟鱼
+item.Beef Raw.name=生牛肉
+item.Beef Cooked.name=熟牛肉
+item.Chicken Raw.name=生鸡肉
+item.Chicken Cooked.name=熟鸡肉
+item.Calamari Raw.name=生鱿鱼
+item.Calamari Cooked.name=熟鱿鱼
+item.Mutton Raw.name=生羊肉
+item.Mutton Cooked.name=熟羊肉
+item.Venison Raw.name=生鹿肉
+item.Venison Cooked.name=熟鹿肉
+item.HorseMeat Raw.name=生马肉
+item.HorseMeat Cooked.name=熟马肉
+
+item.PumpkinSeeds.name=南瓜籽
+item.MelonSeeds.name=西瓜籽
+item.BrownMushroomSpores.name=棕蘑菇孢子
+item.RedMushroomSpores.name=红蘑菇孢子
+item.LettuceSeeds.name=生菜种子
+item.CelerySeeds.name=芹菜种子
+
+item.BrownMushroom.name=棕蘑菇
+item.RedMushroom.name=红蘑菇
+item.Lettuce.name=生菜
+item.Celery.name=芹菜
+
+item.VeggySalad.name=蔬菜沙拉
+item.PotatoSalad.name=土豆沙拉
+item.FruitSalad.name=水果沙拉
+
+item.VegetableSoup.name=蔬菜汤
+item.TomatoSoup.name=番茄汤
+item.ChickenSoup.name=鸡汤
+item.BeefStew.name=牛肉炖锅
+item.VenisonStew.name=鹿肉炖锅
+item.FishChowder.name=鱼汤
+
+item.HamSandwich.name=火腿三明治
+item.ChickenSandwich.name=鸡肉三明治
+item.RoastBeefSandwich.name=牛肉三明治
+item.SalmonSandwich.name=海鲜三明治
+item.FriedEggSandwich.name=煎蛋三明治
+item.MuttonSandwich.name=羊肉三明治
+item.VenisonSteakSandwich.name=鹿肉三明治
+item.VegetarianSandwich.name=素食主义三明治
+item.ToastSandwich.name=只有面包
+
+item.Broth.name=高汤
+item.BoiledChicken.name=煮鸡肉
+item.BoiledBeef.name=煮牛肉
+item.BoiledFish.name=煮鱼
+item.BoiledPork.name=煮猪肉
+item.BoiledVenison.name=煮鹿肉
+
+item.Salt.Rock.name=岩盐
+item.Salt.Sea.name=海盐
+
+item.clayCookingPot.Clay.name=粘土锅
+item.clayCookingPot.Ceramic.name=陶锅
+
+item.clayOvenWall.name=炉壁
+item.SlicedWatermelon.name=切好的西瓜
+item.Pumpkin.name=南瓜
+item.Watermelon.name=西瓜
+item.JackOLantern.name=南瓜灯
+
+#=======
+#= GUI =
+#=======
+gui.progress=Progress
+gui.showIngreds=搂8Foods: (Hold 搂fShift搂8)
+gui.PrepTable.Recipes=Recipe
+gui.PotContents=搂8
 #==============
 #= Entities = 
 #==============
-entity.sheepTFC.name=ç¾Š
+entity.sheepCWTFC.name=羊
+entity.terrafirmacraft.bearCWTFC.name=熊
+entity.terrafirmacraft.chickenCWTFC.name=鸡
+entity.terrafirmacraft.cowCWTFC.name=牛
+entity.terrafirmacraft.deerCWTFC.name=鹿
+entity.terrafirmacraft.horseCWTFC.name=马
+entity.terrafirmacraft.pigCWTFC.name=猪
+entity.terrafirmacraft.pheasantCWTFC.name=野鸡
+entity.terrafirmacraft.wolfCWTFC.name=狼
+entity.cookingwithtfc.bearCWTFC.name=熊
+entity.cookingwithtfc.chickenCWTFC.name=鸡
+entity.cookingwithtfc.cowCWTFC.name=牛
+entity.cookingwithtfc.deerCWTFC.name=鹿
+entity.cookingwithtfc.PheasantCWTFC.name=野鸡
+entity.cookingwithtfc.pigCWTFC.name=猪
+entity.cookingwithtfc.wolfCWTFC.name=狼
+
+#===========
+#= Strings =
+#===========
+word.Barley=黑麦
+word.Corn=玉米
+word.Oat=燕麦
+word.Rice=大米
+word.Rye=大麦
+word.Wheat=小麦
+word.Sandwich=三明治
+
+wood.Oak=橡木
+wood.Aspen=白杨木
+wood.Birch=白桦木
+wood.Chestnut=栗木
+wood.Douglas Fir=花旗松木
+wood.Hickory=山核桃木
+wood.Maple=枫木
+wood.Ash=白蜡木
+wood.Pine=松木
+wood.Sequoia=红衫木
+wood.Spruce=云杉木
+wood.Sycamore=悬铃木
+wood.White Cedar=北美香柏木
+wood.White Elm=榆木
+wood.Willow=杨柳木
+wood.Kapok=木棉
+wood.Acacia=金合欢木
+
+#==========
+#= Fluids =
+#==========
+fluid.milkCWTFC=牛奶
+fluid.milkvinegarCWTFC=奶醋混合
+fluid.milkcurdledCWTFC=凝乳
+fluid.broth=高汤
+fluid.vegetableSoup=蔬菜汤
+fluid.tomatoSoup=番茄汤
+fluid.chickenSoup=鸡汤
+fluid.beefStew=牛肉炖锅
+fluid.venisonStew=鹿肉炖锅
+fluid.fishChowder=鱼汤
+
+#========
+#= Misc =
+#========
+
+#== Creative Tabs ==
+
+
+#=========
+#= WAILA =
+#=========
+
+#== Tooltips ==

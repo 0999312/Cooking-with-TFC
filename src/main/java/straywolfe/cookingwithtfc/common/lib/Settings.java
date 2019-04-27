@@ -9,7 +9,7 @@ public class Settings
 	
 	public static int pickiness = 1;
 	public static int bowlBreakFreq = 50;
-	public static boolean diminishingReturns = true;
+	public static boolean diminishingReturns = false;
 	public static int ovenHardeningTime = 24000;
 	public static int ovenFiringTime = 4000;
 	public static int ClayOvenDurability = 400;
@@ -20,6 +20,7 @@ public class Settings
 	public static boolean disableMushrooms = false;
 	public static boolean disableCelery = false;
 	public static boolean disableLettuce = false;
+	public static boolean disablePeanut = false;
 	
 	public static int lanternLifespan = 72;
 	public static boolean tfcJackOLantern = false;

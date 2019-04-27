@@ -36,7 +36,7 @@ public class ConfigHandler
 		Settings.bowlBreakFreq = config.getInt("bowlBreakFreq", Configuration.CATEGORY_GENERAL, 50, -1, 1000,
 				"Set the rate at which bowls break after eating (0 causes it to always break, -1 disables bowl breaking: ");
 		
-		Settings.diminishingReturns = config.getBoolean("DiminishingReturns", Configuration.CATEGORY_GENERAL, true,
+		Settings.diminishingReturns = config.getBoolean("DiminishingReturns", Configuration.CATEGORY_GENERAL, false,
 				"Toggle whether repeated consumption of food gives less hunger: ");
 		
 		Settings.disablePumpkins = config.getBoolean("disablePumpkins", "Crops", false, "Disable CWTFC Pumpkin seeds from dropping from pumpkins: ");
@@ -48,6 +48,8 @@ public class ConfigHandler
 		Settings.disableCelery = config.getBoolean("disableCelery", "Crops", false, "Disable Celery world generation: ");
 		
 		Settings.disableLettuce = config.getBoolean("disableLettuce", "Crops", false, "Disable Lettuce world generation: ");
+		
+		Settings.disablePeanut = config.getBoolean("disablePeanut", "Crops", false, "Disable Peanut world generation: ");
 		
 		Settings.tfcJackOLantern = config.getBoolean("tfcJackOLantern", "Crops", false, "Enable TFC Jack O' Lantern drop from carving a pumpkin: ");
 		
